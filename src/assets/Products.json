@@ -1,0 +1,37 @@
+[
+  {
+    "kode_produk": "P001",
+    "nama_produk": "Nasi Goreng Spesial",
+    "harga": 25000,
+    "stok": 10,
+    "gambar": "/Produk/nasgor.jpg"
+  },
+  {
+    "kode_produk": "P002",
+    "nama_produk": "Sate Ayam Madura",
+    "harga": 30000,
+    "stok": 5,
+    "gambar": "/Produk/sate.jpg"
+  },
+  {
+    "kode_produk": "P003",
+    "nama_produk": "Rendang Padang",
+    "harga": 35000,
+    "stok": 0,
+    "gambar": "/Produk/rendang.jpg"
+  },
+  {
+    "kode_produk": "P004",
+    "nama_produk": "Bakso Malang",
+    "harga": 20000,
+    "stok": 12,
+    "gambar": "/Produk/bakso.jpg"
+  },
+{
+    "kode_produk": "P005",
+    "nama_produk": "Gado-Gado Betawi",
+    "harga": 22000,
+    "stok": 3,
+    "gambar": "/Produk/GadoGado.jpg"
+  }
+]
