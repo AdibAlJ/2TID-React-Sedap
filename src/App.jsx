@@ -31,6 +31,7 @@ const CheckProduct = React.lazy(() => import("./pages/Guest/CheckProduct"));
 const AboutPage = React.lazy(() => import("./components/Guest/AboutSection"));
 const Products = React.lazy(() => import("./pages/Products"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
+const Notes = React.lazy(() => import("./pages/Notes"));
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/users" element={<UserList />} />
           <Route path="products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetail />} />
+          <Route path="/notes" element={<Notes/>} />
         </Route>
 
         <Route element={<AuthLayout />}>

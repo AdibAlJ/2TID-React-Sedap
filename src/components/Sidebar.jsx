@@ -1,3 +1,5 @@
+import { BiUserPin } from "react-icons/bi"; 
+import { CgNotes } from "react-icons/cg"; 
 import { IoMdPeople } from "react-icons/io";
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { MdDashboard } from "react-icons/md";
@@ -56,7 +58,7 @@ export default function Sidebar() {
           </li>
           <li>
             <NavLink id="menu-4" to="/users" className={menuClass}>
-              <IoMdPeople className="mr-4 text-xl" />
+              <BiUserPin className="mr-4 text-xl" />
               User
             </NavLink>
           </li>
@@ -64,6 +66,12 @@ export default function Sidebar() {
             <NavLink id="menu-4" to="/products" className={menuClass}>
               <MdFastfood className="mr-4 text-xl" />
               Products
+            </NavLink>
+          </li>
+          <li>
+            <NavLink id="menu-4" to="/notes" className={menuClass}>
+              <CgNotes className="mr-4 text-xl" />
+              Notes
             </NavLink>
           </li>
         </ul>
