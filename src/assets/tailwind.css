@@ -1,4 +1,10 @@
 @import "tailwindcss";
+
+/** Tambahkan Ini **/
+@plugin "daisyui" {
+    themes: light --default, dark --prefersdark, cyberpunk;
+}
+
 @font-face {
     font-family: 'Barlow';
     src: url('/fonts/Barlow-Regular.ttf');
