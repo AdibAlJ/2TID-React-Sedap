@@ -1,12 +1,25 @@
-# React + Vite
+# 🍔 Sedap - Aplikasi Pemesanan Makanan Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Sedap** adalah aplikasi berbasis web yang dirancang untuk memudahkan pengguna dalam memesan makanan secara online, memilih menu favorit, dan melakukan checkout langsung melalui antarmuka yang mudah digunakan.
 
-Currently, two official plugins are available:
+## 🎯 Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🍽️ Daftar menu makanan lengkap
+- 🛒 Fitur keranjang belanja
+- 💳 Simulasi pembayaran / checkout
+- 🔍 Filter dan pencarian makanan
+- 👤 Login pengguna (jika ada)
+- 📦 Riwayat pesanan (opsional)
+- 📱 Desain responsif untuk mobile dan desktop
 
-## Expanding the ESLint configuration
+## ⚙️ Teknologi yang Digunakan
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- HTML, CSS, JavaScript
+- ReactJS
+- Git & GitHub untuk version control
+
+## 🛠️ Cara Menjalankan Proyek
+
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/username/nama-repo.git
